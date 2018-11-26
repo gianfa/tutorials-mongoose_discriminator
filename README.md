@@ -16,5 +16,5 @@ Just run it!
 ```
 
 ### References ###
-[Getting started with Mongoose discriminators in Express.js](https://dev.to/helenasometimes/getting-started-with-mongoose-discriminators-in-expressjs--22m9)
-[Official docs: Discriminators](https://mongoosejs.com/docs/discriminators.html)
+* [Getting started with Mongoose discriminators in Express.js](https://dev.to/helenasometimes/getting-started-with-mongoose-discriminators-in-expressjs--22m9)  
+* [Official docs: Discriminators](https://mongoosejs.com/docs/discriminators.html)
