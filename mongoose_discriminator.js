@@ -3,7 +3,7 @@
 
   NodeJs  : 8.9.4
   Mongoose: 5.3.8 
-  @status: working
+
   @ref1: https://dev.to/helenasometimes/getting-started-with-mongoose-discriminators-in-expressjs--22m9
   @ref2: (Official doc: discriminator)[https://mongoosejs.com/docs/discriminators.html]
 */
@@ -67,7 +67,7 @@ Let's see how.
 
 
 // ############### Using Discriminators ###################
-// --- A better wway ---
+// --- A better way ---
 
 
 
