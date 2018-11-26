@@ -17,7 +17,7 @@ mongoose.connect(dbUrl);
 
 
 //  ###############  Not Using Discriminators  ##################
-
+// --- The Ugly way ---
 
 
 /* DEFINE MODELS */
@@ -58,6 +58,8 @@ Now on, if you want to add or modify a shared field, such like title, you'll nee
 to modify all the Schemas and Models; same for defining a new category, mostly similar to
 these.
 
+
+
 Mongoose offers a better solution: the discriminators.
 It allows you to performe inheritance-like definitions through discriminatorKey.
 Let's see how.
@@ -65,6 +67,9 @@ Let's see how.
 
 
 // ############### Using Discriminators ###################
+// --- A better wway ---
+
+
 
 // Discriminator options 
 const baseOptions = {
@@ -103,10 +108,10 @@ TvShowMod = mongoose.model('Tvshow');
 
 
 
-// _____ save records _______
+// # Saving records
 
 const bookdocs = [{
-  title: 'Il castello', author: 'F.Kafka', date_added: Date.now()
+  title: 'The castle', author: 'F.Kafka', date_added: Date.now()
 }];
 
 const mooviedocs = [{
@@ -114,7 +119,7 @@ const mooviedocs = [{
 }];
 
 const tvdocs = [{
-  title: 'Games of Trone', season: 1, date_added: Date.now()
+  title: 'Games of Thrones', season: 1, date_added: Date.now()
 }];
 
 /*
